@@ -1,0 +1,42 @@
+site_name: Documentação IoT RU-GV
+site_url: https://erick-campos.mybluemix.net/
+
+nav:
+    - Inicial: 'index.md'
+    - 'Configurando o aplicativo':
+        - 'Configuração manual': 'app-credenciais-manual.md'
+        - 'Configuração automática': 'app-credenciais-auto.md'
+        - 'Como importar os painéis de controle': 'app-paineis-importar.md'
+        - 'Como atualizar os painéis': 'app-paineis-atualizar.md'
+        - 'Como visualizar os dados do sensores e criar alertas': 'app-paineis-visualizar.md'
+    - Painel físico e os sensores:
+        - 'Como interpretar os dados do painél físico': 'painel-fisico.md'
+        - 'Como funcionam os sensores': 'sensores-funcionamento.md'
+
+theme:
+    name: material
+    language: pt
+    highlightjs: true
+    palette:
+      primary: red
+    icon:
+        repo: fontawesome/brands/gitlab
+        
+markdown_extensions:
+    - toc:
+        permalink: True
+        separator: "_"
+    - abbr
+    - admonition
+    - def_list
+
+extra:
+  nav:
+    sort_order: reverse
+
+plugins:
+    - mkdocs-video
+
+
+repo_url: https://us-south.git.cloud.ibm.com/Erickcampos50/erick-campos
+repo_name: erick-campos/node-red
