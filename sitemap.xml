@@ -31,6 +31,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://erick-campos.mybluemix.net/atividades-testes/</loc>
+         <lastmod>2021-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://erick-campos.mybluemix.net/material-impressao-testes/</loc>
+         <lastmod>2021-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://erick-campos.mybluemix.net/painel-fisico/</loc>
+         <lastmod>2021-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://erick-campos.mybluemix.net/sensores-funcionamento/</loc>
+         <lastmod>2021-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://erick-campos.mybluemix.net/tutorial-telegram/</loc>
          <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
