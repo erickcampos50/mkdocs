@@ -221,18 +221,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../app-credenciais-auto/" class="md-nav__link">
-        Configuração automática
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../app-paineis-importar/" class="md-nav__link">
         Como importar os painéis de controle
       </a>
@@ -259,6 +247,18 @@
     <li class="md-nav__item">
       <a href="../app-paineis-visualizar/" class="md-nav__link">
         Como visualizar os dados do sensores e criar alertas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app-credenciais-auto/" class="md-nav__link">
+        Configuração automática (Somente para usuários avançados)
       </a>
     </li>
   
@@ -463,17 +463,30 @@
                 
                 
                 <h1 id="entenda_como_funcionam_os_sensores_como_fazer_remanejamento_para_novos_equipamentos_e_mais">Entenda como funcionam os sensores, como fazer remanejamento para novos equipamentos e mais<a class="headerlink" href="#entenda_como_funcionam_os_sensores_como_fazer_remanejamento_para_novos_equipamentos_e_mais" title="Permanent link">&para;</a></h1>
+<p>Todos os sensores utilizados para monitoramento são na verdade um dispositivo composto por mais do que apenas um sensor, são conjuntos de sensores, microcontroladores, cabos, transformadores e diversas pequenas peças que compõem o conjunto necessário para realizar a missão de forma bem sucedida, que pode ser resumida em captar informações e enviá-las de forma segura para internet.</p>
+<p>Abaixo você encontrará uma descrição sobre o funcionamento das principais partes do conjunto, funções básicas e como resolver diversos problemas.</p>
+<p><img align="left" alt="led" src="https://4.bp.blogspot.com/-hARpMzhDC40/WM2rNA_V1YI/AAAAAAAACeU/xKiXhjqEj9Iijhi9ddEeHTUwizXBJRjQgCLcB/s1600/led.gif" /></p>
+<div class="admonition info">
+<p class="admonition-title">Como sei que o dispositivo está funcionando</p>
+<p>Quando o sensor é conectado à rede elétrica ele irá piscar o led de sinalização brevemente (por menos de um segundo) apenas para sinalizar que inciou o funcionamento. </p>
+<p>Logo após o dispositivo irá buscar uma rede wi-fi para se conectar e posteriormente tentará acessar o servidor de dados na internet, para onde serão enviados os dados para distribuição para o aplicativo e para os outros diversos serviços (banco de dados, gerenciador de alertas, painel físico, etc.).</p>
+<p>Se o led não sinalizar de forma alguma é sinal de que não está conectado à energia, seja por problemas no ponto de ligação ou no próprio dispositivo. Procure verificar se a tomada está com algum problema através de equipamentos que estejam a disposição no local.</p>
+</div>
 <p><img align="right" alt="led" src="https://4.bp.blogspot.com/-hARpMzhDC40/WM2rNA_V1YI/AAAAAAAACeU/xKiXhjqEj9Iijhi9ddEeHTUwizXBJRjQgCLcB/s1600/led.gif" /></p>
 <div class="admonition info">
 <p class="admonition-title">Entenda o LED piscando</p>
-<p>Durante a utilização dos sensores, se você pode se deparar com o LED piscando de forma intermitente.</p>
+<p>Durante a utilização dos sensores, se você pode se deparar com o LED piscando de forma intermitente na caixa:</p>
 <ul>
 <li>É indicativo de que o sensor:<ul>
+<li>Está executando suas funções básicas de conexão à internet e ao servidor de dados. No entanto se isso demorar a cessar, pode representar alguns problemas.</li>
 <li>Não conseguiu se conectar na internet<ul>
-<li>Verifique se o sinal de internet </li>
+<li>Verifique se o sinal de internet wi-fi com o próprio celular se o sinal esta fraco ou ausente</li>
 </ul>
 </li>
-<li>Conseguiu se conectar na internet mas não conseguiu se conectar no servidor </li>
+<li>Conseguiu se conectar na internet mas não conseguiu se conectar no servidor <ul>
+<li>Se o sinal de internet está bom e funciona, o led piscando pode ocorrer devido a problemas na núvem onde os servidores que realizam as funções de processamento de dados ocorre. Se a situação não se reestabelecer em poucos minutos é preciso acionar auxílio técnico</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
