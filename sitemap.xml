@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://erick-campos.mybluemix.net/</loc>
-         <lastmod>2021-08-25</lastmod>
+         <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://erick-campos.mybluemix.net/app-credenciais-auto/</loc>
-         <lastmod>2021-08-25</lastmod>
+         <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://erick-campos.mybluemix.net/app-credenciais-manual/</loc>
-         <lastmod>2021-08-25</lastmod>
+         <lastmod>2021-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://erick-campos.mybluemix.net/app-paineis-atualizar/</loc>
+         <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://erick-campos.mybluemix.net/app-paineis-importar/</loc>
-         <lastmod>2021-08-25</lastmod>
+         <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://erick-campos.mybluemix.net/app-paineis-visualizar/</loc>
-         <lastmod>2021-08-25</lastmod>
+         <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://erick-campos.mybluemix.net/tutorial-telegram/</loc>
-         <lastmod>2021-08-25</lastmod>
+         <lastmod>2021-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
